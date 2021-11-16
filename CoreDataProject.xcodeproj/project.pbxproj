@@ -13,6 +13,7 @@
 		27E125282743C6D000404033 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E125272743C6D000404033 /* Preview Assets.xcassets */; };
 		27E1252A2743C6D000404033 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E125292743C6D000404033 /* Persistence.swift */; };
 		27E1252D2743C6D000404033 /* CoreDataProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27E1252B2743C6D000404033 /* CoreDataProject.xcdatamodeld */; };
+		27E125362743C81300404033 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 27E125352743C81300404033 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		27E125272743C6D000404033 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		27E125292743C6D000404033 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		27E1252C2743C6D000404033 /* CoreDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProject.xcdatamodel; sourceTree = "<group>"; };
+		27E125352743C81300404033 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				27E125292743C6D000404033 /* Persistence.swift */,
 				27E1252B2743C6D000404033 /* CoreDataProject.xcdatamodeld */,
 				27E125262743C6D000404033 /* Preview Content */,
+				27E125352743C81300404033 /* README.md */,
 			);
 			path = CoreDataProject;
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27E125362743C81300404033 /* README.md in Resources */,
 				27E125282743C6D000404033 /* Preview Assets.xcassets in Resources */,
 				27E125252743C6D000404033 /* Assets.xcassets in Resources */,
 			);

@@ -14,7 +14,9 @@ struct SingerView: View {
     var body: some View {
         VStack {
             FilteredList(filterKey: "lastName",
-                         filterValue: lastNameFilter) { (singer: Singer) in
+                         filterValue: lastNameFilter,
+                         predicateType: .beginsWith,
+                         sortDescriptors: []) { (singer: Singer) in
                 Text("\(singer.wrappedFirstName) \(singer.wrappedLastName)")
             }
 

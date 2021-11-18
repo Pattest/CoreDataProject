@@ -17,6 +17,7 @@
 		275EA401274665F300ED6299 /* Country+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275EA3FD274665F300ED6299 /* Country+CoreDataClass.swift */; };
 		275EA402274665F300ED6299 /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275EA3FE274665F300ED6299 /* Country+CoreDataProperties.swift */; };
 		275EA4042746672200ED6299 /* CandyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275EA4032746672200ED6299 /* CandyView.swift */; };
+		275EA4262746A9C200ED6299 /* PredicateType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275EA4252746A9C200ED6299 /* PredicateType.swift */; };
 		27E125212743C6CE00404033 /* CoreDataProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E125202743C6CE00404033 /* CoreDataProjectApp.swift */; };
 		27E125232743C6CE00404033 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E125222743C6CE00404033 /* ContentView.swift */; };
 		27E125252743C6D000404033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E125242743C6D000404033 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 		275EA3FD274665F300ED6299 /* Country+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataClass.swift"; sourceTree = "<group>"; };
 		275EA3FE274665F300ED6299 /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		275EA4032746672200ED6299 /* CandyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyView.swift; sourceTree = "<group>"; };
+		275EA4252746A9C200ED6299 /* PredicateType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredicateType.swift; sourceTree = "<group>"; };
 		27E1251D2743C6CE00404033 /* CoreDataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E125202743C6CE00404033 /* CoreDataProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProjectApp.swift; sourceTree = "<group>"; };
 		27E125222743C6CE00404033 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		275EA4242746A7B700ED6299 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				275EA4252746A9C200ED6299 /* PredicateType.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		276FD7D2274563350044E63B /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -75,10 +85,10 @@
 			isa = PBXGroup;
 			children = (
 				27E125222743C6CE00404033 /* ContentView.swift */,
+				275EA4032746672200ED6299 /* CandyView.swift */,
+				275EA3F92746529B00ED6299 /* FilteredList.swift */,
 				275EA3F1274650A000ED6299 /* ShipView.swift */,
 				275EA3F32746513F00ED6299 /* SingerView.swift */,
-				275EA3F92746529B00ED6299 /* FilteredList.swift */,
-				275EA4032746672200ED6299 /* CandyView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -102,6 +112,7 @@
 		27E1251F2743C6CE00404033 /* CoreDataProject */ = {
 			isa = PBXGroup;
 			children = (
+				275EA4242746A7B700ED6299 /* Helpers */,
 				276FD7D3274563400044E63B /* Views */,
 				276FD7D2274563350044E63B /* Models */,
 				27E125202743C6CE00404033 /* CoreDataProjectApp.swift */,
@@ -207,6 +218,7 @@
 				275EA3F82746517400ED6299 /* Singer+CoreDataProperties.swift in Sources */,
 				27E1252D2743C6D000404033 /* CoreDataProject.xcdatamodeld in Sources */,
 				27E125212743C6CE00404033 /* CoreDataProjectApp.swift in Sources */,
+				275EA4262746A9C200ED6299 /* PredicateType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
